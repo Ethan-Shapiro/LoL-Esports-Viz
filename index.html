@@ -4,11 +4,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <title>5 Years of Pro-LoL</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body onload="loadPlots()">
   <h1>5 Years of Professional League of Legends</h1>
-  <div style="display: flex">
-    <section id="plot-1-container"></section>
+  <div>
+    <div id="part1">
+      <div id="plot-1-container">
+        <div id="tooltip"></div>
+      </div>
+    </div>
+    <div id="btn-containers"></div>
+    <div id="part2">
+      <div id="plot-2-container">
+        <div id="tooltip"></div>
+      </div>
+    </div>
+    <div id="part3">
+      <div id="plot-3-container">
+        <div id="tooltip"></div>
+      </div>
+    </div>
+    <div id="part4">
+      <div id="plot-4-container">
+        <div id="tooltip"></div>
+      </div>
+    </div>
   </div>
   <script type="text/javascript" src="app.js"></script>
 </body>

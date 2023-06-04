@@ -1,0 +1,6 @@
+#tooltip {
+  border: 1px solid #ccc;
+  padding: 10px;
+  opacity: 0;
+  pointer-events: none;
+}
