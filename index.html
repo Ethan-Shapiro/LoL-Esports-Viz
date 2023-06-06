@@ -3,33 +3,38 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/d3-simple-slider/dist/d3-simple-slider.min.js"></script>
   <title>5 Years of Pro-LoL</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body onload="loadPlots()">
   <h1>5 Years of Professional League of Legends</h1>
   <div>
-    <div id="part1">
-      <div id="plot-1-container">
-        <div id="tooltip"></div>
+    <div id="part1" style="display: flex; justify-content: center">
+      <div id="plot-1-container" style="width: 66.66%"></div>
+      <div id="text-container" style="width: 33.33%; text-align: left">
+        <h2>Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          commodo risus ut varius eleifend. Vestibulum efficitur purus eu dui
+          porta, ac facilisis elit volutpat.
+        </p>
       </div>
     </div>
-    <div id="btn-containers"></div>
-    <div id="part2">
-      <div id="plot-2-container">
-        <div id="tooltip"></div>
-      </div>
+    <div id="part2" style="text-align: center">
+      <div id="plot-2-container" style="display: inline-block"></div>
     </div>
-    <div id="part3">
-      <div id="plot-3-container">
-        <div id="tooltip"></div>
-      </div>
+    <div id="part3" style="text-align: center">
+      <div id="plot-3-container" style="display: inline-block"></div>
+      <div id="slider-container" style="display: inline-block"></div>
+      <div id="stats-container" style="display: inline-block"></div>
     </div>
-    <div id="part4">
-      <div id="plot-4-container">
-        <div id="tooltip"></div>
-      </div>
+    <div id="part4" style="text-align: center">
+      <div id="plot-4-container" style="display: inline-block"></div>
+      <div id="dropdown" style="display: inline-block"></div>
     </div>
+    <div id="btn-containers" style="text-align: center"></div>
   </div>
+
   <script type="text/javascript" src="app.js"></script>
 </body>
