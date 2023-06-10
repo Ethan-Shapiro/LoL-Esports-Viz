@@ -411,7 +411,7 @@ function part2() {
 function part3() {
   const margin = { top: 20, right: 30, bottom: 30, left: 60 };
   const width = 1200 - margin.left - margin.right;
-  const height = 1000 - margin.top - margin.bottom;
+  const height = 780 - margin.top - margin.bottom;
   var mapContainer = d3
     .select("#plot-3-container")
     .append("svg")
